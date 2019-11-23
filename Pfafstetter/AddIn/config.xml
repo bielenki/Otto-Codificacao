@@ -1,0 +1,18 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>NavegacaoPfaf</Name><AddInID>{10265b13-a098-4a14-a325-9b81b7f0b971}</AddInID><Description>Codifica&#231;&#227;o de Otto Pfafstetter e sele&#231;&#227;o de trechos a montante e ajusante</Description><Version>0.1</Version><Image>Images\montante.png</Image><Author>Cl&#225;udio Bielenki J&#250;nior</Author><Company>ANA/UFSCar</Company><Date>04/12/2019</Date><Targets><Target name="Desktop" version="10.1" /></Targets><AddIn language="PYTHON" library="AddIn_addin.py" namespace="AddIn_addin"><ArcMap>
+    <Commands>
+		<ComboBox caption="Rede de Drenagem:" category="NavegacaoPfaf" class="ComboBoxClass_Layer" id="AddIn_layer.combobox" itemSizeString="WWWWWW" message="Selecione a rede de drenagem desejada" rows="4" sizeString="WWWWWW" tip="Rede de Drenagem"><Help heading="" /></ComboBox>
+        <Button caption="Sele&#231;&#227;o a montante" category="NavegacaoPfaf" class="ButtonClass_Montante" id="AddIn_montante.button" image="Images\montante2.png" message="Sele&#231;&#227;o de trechos a montante" tip="Montante"><Help heading="" /></Button>
+        <Button caption="Sele&#231;&#227;o a jusante" category="NavegacaoPfaf" class="ButtonClass_Jusante" id="AddIn_jusante.button" image="Images\jusante.PNG" message="Sele&#231;&#227;o de trechos a jusante" tip="Jusante"><Help heading="" /></Button>
+        <Button caption="Codifica&#231;&#227;o Pfafstetter" category="NavegacaoPfaf" class="ButtonCodifica" id="AddIn_codifica.button" image="Images\otto64.png" message="Realiza a Codifica&#231;&#227;o de Otto Pfafstetter" tip="Algoritmo de Otto Pfafstetter"><Help heading="" /></Button>
+        <Button caption="CodCurso" category="NavegacaoPfaf" class="ButtonClass_cocurso" id="AddIn_cocurso.button" image="Images\codigo.png" message="Gera o c&#243;digo para os cursos d'&#225;gua" tip="Cocurso"><Help heading="" /></Button>
+        <Button caption="Acumula&#231;&#227;o" category="NavegacaoPfaf" class="ButtonClassAcumula" id="AddIn_Acumula.button" image="Images\acumula.png" message="Realiza a acumula&#231;&#227;o a jusante baseado no c&#243;digo de Otto Pfafstetter" tip="Acumula&#231;&#227;o"><Help heading="" /></Button>
+        <ComboBox caption="Atributo" category="NavegacaoPfaf" class="ComboBoxClassAtributo" id="AddIn_Atributo.combobox" itemSizeString="WWWWWW" message="Selecione o atributo para acumular" rows="4" sizeString="WWWWWW" tip="Atributo para acumular"><Help heading="" /></ComboBox>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="Metodologia de Otto Pfafstetter" category="NavegacaoPfaf" id="AddIn_pfafstetter.AddIn" showInitially="true"><Items><ComboBox refID="AddIn_layer.combobox" /><Button refID="AddIn_codifica.button" /><Button refID="AddIn_montante.button" /><Button refID="AddIn_jusante.button" /><Button refID="AddIn_cocurso.button" /><Button refID="AddIn_Acumula.button" /><ComboBox refID="AddIn_Atributo.combobox" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
