@@ -50,7 +50,7 @@ que estão a jusante, ou seja, o caminho até a foz.
 
 **Botão para gerar os códigos dos cursos d’agua**
 
-![icone4](https://github.com/bielenki/Otto-Codificacao/blob/master/Fig/icone4.png?raw=true)
+![icone4](https://github.com/bielenki/Otto-Codificacao/blob/master/Fig/codigo.png?raw=true)
 
 ![barra6](https://github.com/bielenki/Otto-Codificacao/blob/master/Fig/barra6.png?raw=true)
 
@@ -58,7 +58,7 @@ Adiciona o campo [COCURSO] na tabela de atributos.
 
 **Botão de acumulação**
 
-![icone5](https://github.com/bielenki/Otto-Codificacao/blob/master/Fig/icone5.png?raw=true)
+![icone5](https://github.com/bielenki/Otto-Codificacao/blob/master/Fig/acumula.png?raw=true)
 
 ![barra7](https://github.com/bielenki/Otto-Codificacao/blob/master/Fig/barra7.png?raw=true)
 
